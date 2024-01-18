@@ -9,14 +9,14 @@ function App(){
     <Router> /* "react-router-dom" 내의 BrowserRouter*/
       <Header />
       <Switch>
-        <Route path="/">
-          <Home />
-        </Route>
         <Route path="/tv">
           <Tv />
         </Route>
         <Route path="/search">
           <Search />
+        </Route>
+        <Route path="/">
+          <Home />
         </Route>
       </Switch>
     </Router>

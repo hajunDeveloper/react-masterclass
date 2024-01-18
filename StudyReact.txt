@@ -9,3 +9,7 @@
 		○ 이를 보완하기 위해 화면에 따른 주소를 만들어, 다른 주소에 다른 뷰를 보여주어야 한다(Routing). -> React 자체에는 이러한 기능이 없어 관련 라이브러리 사용 ->  react-router-dom
 		○ Cf. 웹 앱은 creat-react-app을 사용해 만든다.
 	• BrowserRouter는 HTML5의 History API를 사용해 URL과  UI를 동기해주는 <Router> 이다.
+#9.2
+	- Route 위치 중요 "/tv" "/search" "/"
+	- "/"는 항상 갖고 있으니 isExact로 확인
+	- useRouteMatch: 특정 URL에 들어와 있는지 확인해줌
