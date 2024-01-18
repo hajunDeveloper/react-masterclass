@@ -1,0 +1,11 @@
+#9.0~#9.1
+	• Why React? 매우 멋진 UI Library. (JS만 잘한다면 React 안쓰고 다 할 수 있다)
+	• React.StrictMode : Application의 잠재적인 문제를 알아내기 위한 도구.
+	• ReactDOM.render(<App/>, document.getElementById('root')) <- index.js에 작성
+		○ React 코드를 DOM에 붙이는 역할
+		○ Index.html에 있는 <div id="root">에 붙음
+	• React: SPA 쉽게 만들 수 있도록 하는 Library
+		○ 브라우저상에서 앞뒤로 가기 불가.
+		○ 이를 보완하기 위해 화면에 따른 주소를 만들어, 다른 주소에 다른 뷰를 보여주어야 한다(Routing). -> React 자체에는 이러한 기능이 없어 관련 라이브러리 사용 ->  react-router-dom
+		○ Cf. 웹 앱은 creat-react-app을 사용해 만든다.
+	• BrowserRouter는 HTML5의 History API를 사용해 URL과  UI를 동기해주는 <Router> 이다.
