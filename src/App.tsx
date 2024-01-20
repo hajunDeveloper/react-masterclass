@@ -6,7 +6,7 @@ import Tv from "./Routes/Tv";
 
 function App(){
   return (
-    <Router> /* "react-router-dom" 내의 BrowserRouter*/
+    <Router>
       <Header />
       <Switch>
         <Route path="/tv">
